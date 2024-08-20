@@ -18,3 +18,14 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid #000000; /* Borde separador del título */
     padding-bottom: 10px; /* Espacio entre el título y el borde */
 }
+/* Estilo del pie de página */
+footer {
+    background-color: #f1f1f1;
+    color: #696969; /* Letra gris oscuro */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
