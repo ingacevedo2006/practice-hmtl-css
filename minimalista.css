@@ -1,32 +1,41 @@
-/* Estilo general del cuerpo */
 body {
     background-color: #ffffff; /* Fondo blanco */
     font-family: "Arial", sans-serif;
-    font-size: 16px;
-    color: #333333; /* Letra gris oscuro */
-    margin: 0;
-    padding: 20px;
+    color: #000; /* Texto en negro */
 }
 
-/* Estilo del título */
-h1 {
-    color: #000000; /* Letra negra */
-    border-bottom: 1px solid #cccccc;
-    padding-bottom: 10px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    overflow: hidden;
 }
 
-/* Estilo de los párrafos */
-p {
-    line-height: 1.8;
-    margin-bottom: 15px;
+nav ul li {
+    display: inline;
+    margin-right: 25px;
 }
 
-/* Estilo del pie de página */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: #f8f8f8; /* Fondo gris muy claro */
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+}
+
 footer {
-    background-color: #f4f4f4;
-    color: #333333; /* Letra gris oscuro */
+    background-color: #f8f8f8;
+    color: #000;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
-    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
