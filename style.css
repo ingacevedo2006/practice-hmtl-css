@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     color: #000000; /* Letra negra */
     font-family: 'Times New Roman', Times, serif; /* Estilo de letra */
-    font-size: 14px; /* Tamaño de letra */
+    font-size: 18px; /* Tamaño de letra */
     margin-bottom: 20px;
 }
 
@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     background-color: #f1f1f1;
     color: #696969; /* Letra gris oscuro */
+    font-size: 14px;
     text-align: center;
     padding: 10px;
     position: fixed;
