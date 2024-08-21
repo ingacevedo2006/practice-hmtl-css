@@ -1,0 +1,32 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #333333; /* Letra gris oscuro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo del título */
+h1 {
+    color: #000000; /* Letra negra */
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+/* Estilo de los párrafos */
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #f4f4f4;
+    color: #333333; /* Letra gris oscuro */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
